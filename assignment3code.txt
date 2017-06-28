@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Landing page</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/CustomNav.css" rel="stylesheet" />
+
+    <script src="/Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="/Scripts/modernizr-2.6.2.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <link href="/Content/colorbox.css" rel="stylesheet" />
+
+
+    <style type="text/css">
+        .headertest {
+            padding-top: 50px;
+            height: 400px;
+            /*background-color: coral;*/
+            background-repeat: no-repeat;
+            background-position: center center fixed;
+            background: url(../images/3-cloud-computing.png) no-repeat center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .intro-message > h1 {
+            margin: 0;
+            padding-top: 50px;
+            text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+            font-size: 5em;
+            color: #b6ff00;
+        }
+
+        .intro-header {
+            padding-top: 40px; /* 50 If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+            padding-bottom: 10px;
+            text-align: center;
+            color: #ff0000;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 40px; /* choose any height */
+            background-color: #073f67;
+            color: white;
+            text-align: left;
+        }
+
+        .blur-filter {
+            -webkit-filter: blur(2px);
+            -moz-filter: blur(2px);
+            -o-filter: blur(2px);
+            -ms-filter: blur(2px);
+            filter: blur(2px);
+        }
+
+        .Unblur-filter {
+            -webkit-filter: blur(0px);
+            -moz-filter: blur(0px);
+            -o-filter: blur(0px);
+            -ms-filter: blur(0px);
+            filter: blur(0px);
+        }
+
+        .bodyMain {
+            border: 5px solid blue;
+            margin-top: 47px;
+            background-color: white;
+            padding-left: 35px;
+        }
+        img{
+    float: left;
+    margin: 0 10px 10px;
+}
+
+li {
+border-left:1px solid #1569C7;
+    float: left;
+	display:block;
+	text-align:center;
+	
+    border-right:1px solid #1569C7;
+	
+}
+
+        .pbody {
+            padding: 20px;
+            margin-left: 65px;
+        }
+    </style>
+
+
+</head>
+<body style="background-color:#d1ecf9 ;">
+    <div id="bodyBack" class="bodyBack">
+        <!-- Navigation -->
+        <div id="topnav" class="navbar navbar-inverse navbar-fixed-top navbar-custom ">
+
+            <div style="background-color: chocolate;">
+
+                <div class="hidden-sm hidden-xs" style="height: 100px; font-size: large;padding-left:20px;padding-top:10px;background-color: chocolate;">
+                    <div style="display: inline-block;">
+                        <img src="/puji.jpg" height="70" />
+
+                        <div style="display: inline-block; padding-left: 20px; vertical-align: top;color: white;">
+                            <h3 style="margin-top:0px;">
+                                <b>Paruchuri Sri Krishna Pujitha</b>
+                            </h3>
+                            <h4 style="margin-top:-10px;">
+                                <b>DAT 605 Cloud Computing / Development</b>
+                            </h4>
+                        </div>
+                    </div>
+                    <div style="display: inline-block; float: right;padding-right:20px;">
+                        <div style="display: inline-block;">
+                            <img src="/national logo.jpg" width="70"/>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-toggle hidden-md hidden-sm hidden-xs" data-toggle="collapse" data-target=".navbar-collapse">
+                        <img src="puji.jpg" height="70" />
+
+                        <div style="display: inline-block; padding-left: 20px; vertical-align: top;color: white;">
+                            <h3 style="margin-top:0px;">
+                                <b>Paruchuri Sri Krishna Pujitha</b>
+                            </h3>
+                            <h4 style="margin-top:-10px;">
+                                <b>DAT 605 Cloud Computing / Development</b>
+                            </h4>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand hidden-lg " href="/" style="height:30px;padding-top:10px !important;">
+                            <span class="pull-left" style="color:wheat;font-size:.9em;height:30px;vertical-align:middle;font-style: oblique ">
+                                <img src="puji.jpg" style="height:30px;" />
+                                Paruchuri Sri Krishna Pujitha
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class='nav navbar-nav'><li><a href='index.html' class='@ActiveItem(' Index', 'Home' , null)'>Home</a></li><li><a href='index.html' class='@ActiveItem(' Assigment1', 'Home' , null)'>Assigment 1</a></li><li><a href='index2.html' class='@ActiveItem(' Assigment2', 'Home' , null)'>Assigment 2</a></li><li><a href='index3.html' class='@ActiveItem(' Assigment3', 'Home' , null)'>Assigment 3</a></li>
+                    <li><a href='final.html' class='@ActiveItem(' Index', 'Home' , null)'>final</a></li></ul>
+                    <script type="text/javascript">
+                            //$(function(){
+                            //    $("#loginLink").click(function (event) {
+                            //        alert("in the form");
+                            //    //    event.preventDefault();
+                            //        $("#HeadImage2").hide();
+                            //        $("#HeadImage").css("display","none");
+                            //    });
+                            //});
+                            $(document).ready(function () {
+
+                                //$(".ajax3").colorbox({ width:"510px",
+                                //    onLoad: function () {
+                                //        $('#cboxContent').css({
+                                //            "background": "white"
+                                //        });
+                                //        $('#cboxLoadedContent').css({
+                                //            "margin-bottom": "0px",
+                                //            "height": "400px"
+                                //        });
+                                //        //$("body").addClass("blur-filter");
+                                //        //},
+                                //        //onClosed:function(){
+                                //        //    $("body").removeClass("blur-filter");
+                                //        //}
+                                //    }});
+
+                                //$(".ajax2").colorbox({ href:"Home/Login",width:"510px",
+                                //    onLoad: function () {
+                                //        $('#cboxContent').css({
+                                //            "background": "white"
+                                //        });
+                                //        $('#cboxLoadedContent').css({
+                                //            "margin-bottom": "0px",
+                                //            "height": "400px"
+                                //        });
+                                //        //$("body").addClass("blur-filter");
+                                //        //},
+                                //        //onClosed:function(){
+                                //        //    $("body").removeClass("blur-filter");
+                                //        //}
+                                //    }});
+                            });
+                    </script>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="contId" class="container body-content bodyMain clearfix" style="margin-top:148px; margin-bottom: 45px;">
+        <h3 style="margin-left: 40px;"> Assignment 3</h3>
+
+        <b style="margin-left: 40px; color: blue;"> Women in Jazz</b> &nbsp; &nbsp;
+        <button type="button" id="btnrefresh" onclick="womeninjazz()"> Refresh </button>
+
+        <br /><br />
+        <table id="htmltable" border="1" style="border-collapse:collapse; margin-bottom: 30px;">
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <script>
+                $(document).ready(function () {
+                    womeninjazz();
+                });
+                function womeninjazz() {
+                    $.ajax({
+                        url: "http://whooyou.azurewebsites.net/api/jazzwomen/classlist/5",
+                        dataType: "xml",
+                        success: function (data) {
+                            $("#htmltable").children().remove();
+
+                            $(data).find("jazzObj").each(function () {
+                                var imgvalue = $(this).find("picUrl").text();
+                                var result = ('<tr><td><img src="'+imgvalue+'" style="height: 70px; width: 50px;" /></td><td style="padding-left: 5px;"><b>' + $(this).find("fname").text() + '&nbsp' + $(this).find("lname").text() + '</b></br><a style="color: blue;">' + $(this).find("Website").text() + '</a></br>' + $(this).find("Description").text() + '</td></tr>');
+                                $("#htmltable").append(result);
+                            });
+                        }
+                    });
+                }
+            </script>
+        </table>
+    </div>
+
+    <footer class="footer" id="bodyBack2">
+        <div style="padding-left:30px;padding-top:10px;">
+            <p>&copy; 2016 - Paruchuri Sri Krishna Pujitha </p>
+        </div>
+    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="/Scripts/jquery.colorbox.js"></script>
+
+    <script type="text/javascript">
+        function setSize() {
+            var headhe = $("#topnav").height() + 5 + "px";
+            $("#contId").css("margin-top", headhe);
+        };
+
+        $(window).resize(function () {
+            setSize();
+        });
+
+        $("#bodyBack").load(function () {
+            //  setSize();
+        });
+
+        $(document).ready(function () {
+            var headheight = $("#topnav").height() + 5 + "px";
+               $("#contId").css("margin-top", headheight);
+        });
+
+    </script>
+</body>
+</html>
